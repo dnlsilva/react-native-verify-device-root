@@ -1,0 +1,47 @@
+{
+  "name": "react-native-verify-device-root",
+  "title": "React Native Verify Device Root",
+  "version": "0.0.1",
+  "description": "A lib to verify device root on react native apps",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-verify-device-root.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GleidsonDaniel/react-native-verify-device-root.git",
+    "baseUrl": "https://github.com/GleidsonDaniel/react-native-verify-device-root"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "rootbeer",
+    "root",
+    "verify",
+    "device",
+    "native"
+  ],
+  "author": {
+    "name": "Daniel Silva",
+    "email": "gleidson10daniel@gmail.com",
+    "url": "https://github.com/GleidsonDaniel"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
