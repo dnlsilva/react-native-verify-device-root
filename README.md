@@ -1,19 +1,36 @@
 # react-native-verify-device-root
 
-## Getting started
+Verify device root for [React Native](https://github.com/facebook/react-native).
 
-`$ npm install react-native-verify-device-root --save`
+## Installation
 
-### Mostly automatic installation
+Using npm:
 
-`$ react-native link react-native-verify-device-root`
+```shell
+npm install --save react-native-verify-device-root
+```
+
+or using yarn:
+
+```shell
+yarn add react-native-verify-device-root
+```
+
+## Linking (React Native >= 0.60 skip this as auto-linking should work)
+
+#### Notes
+
+> Work only on Android, open for pull requests.
 
 ## Usage
 ```javascript
 import VerifyDeviceRoot from 'react-native-verify-device-root';
 
-## Work only on Android
+const root = await VerifyDeviceRoot.isRooted();
 
-// TODO: What to do with the module?
-VerifyDeviceRoot;
+return true or false
 ```
+
+### ©️ Open source - licence
+
+Repository and contributions are under [GNU General Public License v3.0](https://github.com/GleidsonDaniel/transactions-manager/blob/develop/LICENSE)
