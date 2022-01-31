@@ -24,15 +24,15 @@ public class VerifyDeviceRootModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void isRooted(Promise promise) {
-        RootBeer check = new RootBeer(reactContext);
+        RootBeer rootBeer = new RootBeer(reactContext);
 
-        promise.resolve(check.isRooted());
+        promise.resolve(rootBeer.isRooted());
     }
 
     @ReactMethod
     public void isRootedWithBusyBoxCheck(Promise promise) {
-        RootBeer check = new RootBeer(reactContext);
+        RootBeer rootBeer = new RootBeer(reactContext);
 
-        promise.resolve(check.isRootedWithBusyBoxCheck());
+        promise.resolve(rootBeer.isRootedWithBusyBoxCheck());
     }
 }

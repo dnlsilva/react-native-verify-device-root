@@ -1,7 +1,7 @@
 {
   "name": "react-native-verify-device-root",
   "title": "React Native Verify Device Root",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lib to verify device root on react native apps",
   "main": "index.js",
   "files": [
@@ -37,11 +37,11 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
+    "react": "^17.0.0",
+    "react-native": ">=0.63.0"
   },
   "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "react": "^17.0.0",
+    "react-native": "^0.63.0"
   }
 }
