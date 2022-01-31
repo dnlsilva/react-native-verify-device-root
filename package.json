@@ -1,7 +1,7 @@
 {
   "name": "react-native-verify-device-root",
   "title": "React Native Verify Device Root",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lib to verify device root on react native apps",
   "main": "index.js",
   "files": [
