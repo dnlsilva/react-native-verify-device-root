@@ -13,9 +13,11 @@ import com.scottyab.rootbeer.RootBeer;
 @ReactModule(name = VerifyDeviceRootModule.NAME)
 public class VerifyDeviceRootModule extends ReactContextBaseJavaModule {
     public static final String NAME = "VerifyDeviceRoot";
+    private final ReactApplicationContext reactContext;
 
     public VerifyDeviceRootModule(ReactApplicationContext reactContext) {
         super(reactContext);
+        this.reactContext = reactContext;
     }
 
     @Override
@@ -28,14 +30,12 @@ public class VerifyDeviceRootModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void isRooted(Promise promise) {
         RootBeer rootBeer = new RootBeer(reactContext);
-
         promise.resolve(rootBeer.isRooted());
     }
 
     @ReactMethod
     public void isRootedWithBusyBoxCheck(Promise promise) {
         RootBeer rootBeer = new RootBeer(reactContext);
-
         promise.resolve(rootBeer.isRootedWithBusyBoxCheck());
     }
 }
