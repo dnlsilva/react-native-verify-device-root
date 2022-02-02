@@ -8,6 +8,8 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.module.annotations.ReactModule;
 
+import com.scottyab.rootbeer.RootBeer;
+
 @ReactModule(name = VerifyDeviceRootModule.NAME)
 public class VerifyDeviceRootModule extends ReactContextBaseJavaModule {
     public static final String NAME = "VerifyDeviceRoot";
